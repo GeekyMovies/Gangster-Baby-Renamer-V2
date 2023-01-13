@@ -15,12 +15,12 @@ from helper.database import daily as daily_
 from helper.date import check_expi
 import os
 
-CHANNEL = os.environ.get('CHANNEL', "")
-STRING = os.environ.get("STRING", "")
-ADMIN = int(os.environ.get("ADMIN", 1484670284))
-bot_username = os.environ.get("BOT_USERNAME","GangsterBaby_renamer_BOT")
-log_channel = int(os.environ.get("LOG_CHANNEL", ""))
-token = os.environ.get('TOKEN', '')
+CHANNEL = os.environ.get('CHANNEL', "geeky_movies")
+STRING = os.environ.get("STRING", "1BVtsOKwBuym_lqJMDg7bonwer9rHbFYd_q_SYm-uPEqXox2NEkciFfVCqJVKXPsQo6SGsMBHCHoNLn_UZI8EJCoosmc4w5tbwLuDF1Vec2vIoe8eb2pfvpDcp63_G-Cqp0n0aiZT8h713WR9ldVf7k1oFRgVqhuXfuhZgXbed_chgNuCPpOSjcVbavph-VjMpVk6L3-sLvQJiMG5nslkN2Rt6hSApvV58z-ktLPatQ_30xD33TGcdAGzxccALr-zvHE-UBIWZAx-RtsqViuQ1YusNRvQQS8I9reuloZ9Ccc11cGmLGgw6P5A_-48hNOI2LaivHRj4xHXE8NxVBUBFJVVX0nE_JA=")
+ADMIN = int(os.environ.get("ADMIN", 5691018873))
+bot_username = os.environ.get("BOT_USERNAME","geekyurl_bot")
+log_channel = int(os.environ.get("LOG_CHANNEL", "-1001873970692"))
+token = os.environ.get('TOKEN', 'AAE1STI93wsA7MK9pma-MOKXU4Gww5KxwWk')
 botid = token.split(':')[0]
 FLOOD = 500
 LAZY_PIC = os.environ.get("LAZY_PIC", "")
